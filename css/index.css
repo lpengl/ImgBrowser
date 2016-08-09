@@ -1,0 +1,32 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.img-container{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 1024px;
+}
+
+.img-container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-item{
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+    float: left;
+    border: 1px solid silver;
+    width: 150px;
+    height: 100px;
+}
+
+.img-item:hover{
+    outline: 2px solid blue;
+}
+
